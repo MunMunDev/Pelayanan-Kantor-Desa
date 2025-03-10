@@ -19,6 +19,12 @@
         android:theme="@style/Theme.AksanAplikasiSuratKantorDesa"
         tools:targetApi="31">
         <activity
+            android:name=".ui.activity.combination.register.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.combination.login.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.activity.combination.splashscreen.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
@@ -29,7 +35,7 @@
         </activity>
         <activity
             android:name=".ui.activity.user.main.MainActivity"
-            android:exported="true"/>
+            android:exported="true" />
     </application>
 
 </manifest>
